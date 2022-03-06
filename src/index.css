@@ -1,13 +1,187 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+/* FONTS */
+@font-face {
+  font-family: "gingerregular";
+  src: url("./assets/Fonts/Ginger/ginger-webfont.woff2") format("woff2"),
+    url("./assets/Fonts/Ginger/ginger-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "faktum_testbold";
+  src: url("./assets/Fonts/rene_bieder_-_faktum_test_bold-webfont.woff2")
+      format("woff2"),
+    url("./assets/Fonts/rene_bieder_-_faktum_test_bold-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "faktum_testregular";
+  src: url("./assets/Fonts/rene_bieder_-_faktum_test_regular-webfont.woff2")
+      format("woff2"),
+    url("./assets/Fonts/rene_bieder_-_faktum_test_regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family-paragraph: "faktum_testregular";
+  --font-heading: "gingerregular"
+  --background-banner: #e8e0d8;
+  --background-intouch: #f5c701;
+  --background-other: #f16d70;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;
+  opacity: 0.5;
+  width: 7px; 
+  border-radius: 6px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-moz-selection {
+  background: #f16d70;
+  text-shadow: none;
+  color: #fff;
+}
+
+::selection {
+  background: #f16d70;
+  text-shadow: none;
+  color: #fff;
+}
+
+body {
+  overflow-x: hidden;
+  text-decoration: none;
+  color: #222;
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:focus,
+a:active,
+a:visited {
+  color: #eee;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "faktum_testbold";
+  font-display: swap;
+}
+
+section {
+  padding: 100px 80px;
+}
+
+p,
+span,
+button,
+a,
+input,
+textarea {
+  font-family: var(--font-family-paragraph);
+  font-display: swap;
+  font-style: normal;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+button {
+  font-size: 14px;
+  line-height: 14px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.hide-on-desktop {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+
+  p {
+    line-height: 22px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  section {
+    padding: 50px 20px;
+  }
+
+  p {
+    line-height: 1.6;
+    font-size: 14px;
+  }
 }

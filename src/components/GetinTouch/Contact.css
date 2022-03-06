@@ -1,0 +1,134 @@
+.contact__container {
+  padding: 200px 120px;
+  /* background-color: #7d96e2; */
+  display: flex;
+  flex-direction: column;
+  background: #c2e59c;
+  background: -webkit-linear-gradient(to bottom, #64b3f4, #c2e59c);
+  background: linear-gradient(to bottom, #64b3f4, #c2e59c);
+}
+
+.contact__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__left {
+  align-items: flex-start;
+  display: flex;
+}
+
+.contact__right {
+  align-items: flex-end;
+}
+
+.contact__left p {
+  font-size: 24px;
+}
+
+.contact-line {
+  width: 40px;
+  margin-right: 10px;
+  color: #000;
+  border-top: 5px solid #000;
+}
+
+.contact__right h2 {
+  font-size: 200px;
+}
+
+.contact__info h2,
+.contact__info p,
+.further__inquires h2 {
+  font-size: 60px;
+}
+
+.contact__info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.contact__info p:not(:last-child) {
+  margin-top: 15px;
+}
+
+.contact__info p {
+  margin-bottom: 40px;
+}
+
+.further__inquires p {
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+.contact__info p,
+.further__inquires p {
+  text-decoration: underline #000;
+}
+
+.further__inquires {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 680px) {
+  .contact__container {
+    padding: 80px 20px;
+  }
+
+  .contact__wrapper {
+    display: block;
+  }
+
+  .contact__left {
+    display: flex;
+  }
+
+  .contact__right {
+    align-items: flex-start;
+  }
+
+  .contact__left p {
+    font-size: 16px;
+  }
+
+  .contact-line {
+    width: 0;
+    border-top: none;
+  }
+
+  .contact__right h2 {
+    font-size: 48px;
+    margin-top: 15px;
+  }
+
+  .contact__info h2,
+  .contact__info p,
+  .further__inquires h2 {
+    font-size: 20px;
+  }
+
+  .contact__info {
+    gap: 10px;
+    margin-top: 14px;
+  }
+
+  .contact__info p:not(:last-child) {
+    margin-top: 7px;
+  }
+
+  .contact__info p {
+    margin-bottom: 10px;
+  }
+
+  .further__inquires p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .further__inquires {
+    margin-top: 20px;
+  }
+}

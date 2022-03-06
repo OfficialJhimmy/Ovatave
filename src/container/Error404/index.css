@@ -1,0 +1,35 @@
+.error404__container {
+  padding: 200px 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error404__container h2 {
+  font-size: 60px;
+  font-family: "gingerregular";
+  margin-bottom: 20px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.error404__container p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 680px) {
+  .error404__container {
+    padding: 70px 20px;
+    height: 100vh;
+  }
+
+  .error404__container h2 {
+    font-size: 32px;
+  }
+
+  .error404__container p {
+    font-size: 18px;
+  }
+}

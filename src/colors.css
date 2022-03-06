@@ -1,0 +1,36 @@
+:root {
+  --blue: #7d96e2;
+  --indigo: #6610f2;
+  --purple: #a77dd5;
+  --pink: #e83e8c;
+  --red: #cb030f;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #00633a;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #7d96e2;
+
+  /* Yellow*/
+  background: #cac531;
+  background: -webkit-linear-gradient(to top, #f3f9a7, #cac531);
+  background: linear-gradient(to top, #f3f9a7, #cac531);
+
+  /* Blue Shade*/
+  background: #c2e59c;
+  background: -webkit-linear-gradient(to bottom, #64b3f4, #c2e59c);
+  background: linear-gradient(to bottom, #64b3f4, #c2e59c);
+
+  /* Black and White */
+  background: #403b4a;
+  background: -webkit-linear-gradient(to bottom, #e7e9bb, #403b4a);
+  background: linear-gradient(to bottom, #e7e9bb, #403b4a);
+
+  /* Footer*/
+  background: #c2e59c;
+  background: -webkit-linear-gradient(to bottom, #64b3f4, #c2e59c);
+  background: linear-gradient(to bottom, #64b3f4, #c2e59c);
+}

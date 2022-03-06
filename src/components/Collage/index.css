@@ -1,0 +1,171 @@
+.hero-container {
+  padding: 100px 80px;
+  overflow: hidden;
+}
+
+.hero-text-section {
+  margin: 0 auto;
+  padding: 80px;
+  text-align: center;
+  z-index: 10000;
+}
+
+.hero-text-section p,
+.hero-footer {
+  display: inline-block;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.hero-footer {
+  color: #fff;
+}
+
+.hero-collage {
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  max-width: 95%;
+  margin: 0 auto;
+  margin-bottom: 10vh;
+}
+
+.hero-element {
+  margin-bottom: 10px;
+}
+
+.hero-element img,
+.hero-element-middle img {
+  border-radius: 10px;
+}
+
+.hero-usedBy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  padding-top: 90px;
+  margin-bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: #eee;
+  font-weight: 600;
+}
+
+.hero-usedBy-copy,
+.hero-usedBy-ethos {
+  margin-bottom: 0;
+  padding-left: 62px;
+  width: 390px;
+}
+
+.hero-usedBy-ethos {
+  padding-left: 0;
+}
+
+.hero-usedBy-copy h2 {
+  font-family: "gingerregular";
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero-usedBy-copy p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.hero-element-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collage-element-middle {
+  width: 100%;
+  margin: 0 20px;
+}
+
+.hero-icon__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  row-gap: 15px;
+}
+
+@media screen and (max-width: 680px) {
+  .hero-container {
+    padding: 50px 20px 0px 20px;
+  }
+
+  .hero-text-section {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .hero-text-hide {
+    display: none;
+  }
+
+  .hero-text-section h2 {
+    display: block;
+  }
+
+  .hero-collage {
+    display: grid;
+    grid-template-columns: 30% 1fr 30%;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    margin-top: 7vh;
+  }
+
+  .hero-element-middle {
+    display: flex;
+    align-items: center;
+  }
+
+  .collage-element-middle {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .hero-usedBy {
+    flex-direction: column;
+    margin-top: 0px;
+    align-items: center;
+    padding-top: 0px;
+    margin-bottom: 200px;
+    position: relative;
+  }
+
+  .hero-usedBy-copy,
+  .hero-usedBy-ethos {
+    margin-bottom: 20px;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .hero-usedBy-ethos p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .pin-spacer {
+    place-self: center !important;
+    overflow: hidden !important;
+    padding: 0px 0px 300px !important;
+    height: 600px !important;
+  }
+
+  .hero-icon__container {
+    grid-column-gap: 10px;
+    row-gap: 15px;
+  }
+
+  .hero-icon__container img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+}

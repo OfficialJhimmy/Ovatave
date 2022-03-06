@@ -1,0 +1,24 @@
+.button-opacity {
+  opacity: 1;
+}
+
+.button-normal {
+  opacity: 0;
+}
+
+.scroll__btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem;
+  border-radius: 9999px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  background-color: rgb(136, 136, 136);
+  position: fixed;
+  bottom: 0.5rem;
+  right: 1.5rem;
+  transition: all ease-in-out;
+}
+
+.scroll__img {
+  width: 30px;
+}
