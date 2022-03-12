@@ -47,7 +47,7 @@ li {
   cursor: pointer;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1240px) {
   .navbar {
     justify-content: space-between;
   }
@@ -106,11 +106,6 @@ li {
     transform: scale(1.5);
     transition: 0.3s;
   }
-
-  /* .mobile-menu button {
-    margin: 1rem;
-    width: 90%;
-  } */
 
   .nav-menu {
     display: none;

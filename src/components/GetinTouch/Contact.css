@@ -1,6 +1,5 @@
 .contact__container {
   padding: 200px 120px;
-  /* background-color: #7d96e2; */
   display: flex;
   flex-direction: column;
   background: #c2e59c;
@@ -126,6 +125,56 @@
   .further__inquires p {
     font-size: 20px;
     margin-top: 10px;
+  }
+
+  .further__inquires {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .contact__container {
+    padding: 80px 40px;
+  }
+
+  .contact__wrapper {
+    display: block;
+  }
+
+  .contact__left p {
+    font-size: 18px;
+  }
+
+  .contact-line {
+    width: 0;
+  }
+
+  .contact__right h2 {
+    font-size: 52px;
+  }
+
+  .contact__info h2,
+  .contact__info p,
+  .further__inquires h2 {
+    font-size: 30px;
+  }
+
+  .contact__info {
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .contact__info p:not(:last-child) {
+    margin-top: 10px;
+  }
+
+  .contact__info p {
+    margin-bottom: 10px;
+  }
+
+  .further__inquires p {
+    font-size: 30px;
+    margin-top: 15px;
   }
 
   .further__inquires {

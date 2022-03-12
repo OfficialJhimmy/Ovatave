@@ -33,4 +33,31 @@
   background: #c2e59c;
   background: -webkit-linear-gradient(to bottom, #64b3f4, #c2e59c);
   background: linear-gradient(to bottom, #64b3f4, #c2e59c);
+
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
+
+  /* Portfolio Grdient */
+  background: hsla(208, 7%, 55%, 1);
+
+  background: linear-gradient(
+    360deg,
+    hsla(208, 7%, 55%, 1) 0%,
+    hsla(191, 5%, 40%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    360deg,
+    hsla(208, 7%, 55%, 1) 0%,
+    hsla(191, 5%, 40%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    360deg,
+    hsla(208, 7%, 55%, 1) 0%,
+    hsla(191, 5%, 40%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#858E96", endColorstr="#60696B", GradientType=1 );
 }

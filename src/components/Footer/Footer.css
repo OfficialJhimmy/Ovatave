@@ -1,6 +1,5 @@
 footer {
   padding: 120px 120px;
-  /* background-color: #7d96e2; */
   display: flex;
   flex-direction: column;
   background: #c2e59c;
@@ -111,5 +110,12 @@ footer {
 
   .footer-time {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  footer {
+    padding: 70px 40px;
+    padding-bottom: 30px;
   }
 }
