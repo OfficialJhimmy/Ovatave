@@ -1,7 +1,6 @@
  # Ovatave - A Talent and Brand Management Agency.
 
-This project's major objective was to showcase the agency's next generation of Singers, Models, Athletes, and Digital Entrepreneurs portfolio and celebrate its sucess in the entertainment industry.
-
+This project's major objective was to showcase the agency's next generation of singers, models, athletes, and digital entrepreneurs and celebrate its success in the entertainment industry.
 ## Table of contents
 
 - [Overview](#overview)
