@@ -20,6 +20,20 @@
     "react-spinners": "^0.11.0",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "react-animated-cursor": {
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    },
+    "react-spinners": {
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    },
+    "react-lottie": {
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
